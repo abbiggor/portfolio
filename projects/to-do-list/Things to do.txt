@@ -1,0 +1,4 @@
+* Criar 3 divs separadas, especificando tarefas do turno da manhã, tarde e noite.
+* Fazer com que a imagem de fundo alterne entre um cenário matutino, vespertino e noturno, de acordo com o horário atual.
+* Deixar o fundo com blur.
+* Adicionar um relógio analógico ao canto da tela. (?)

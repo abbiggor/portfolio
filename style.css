@@ -1,0 +1,110 @@
+body {
+  color: white; /* cor do texto */
+  background-color: black; /* cor de fundo */
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  display: flex; /* coloca os elementos na mesma linha */
+  justify-content: space-between; /* cria espaço entre os itens */
+  list-style-type: none; /* remove a bolinha */
+  align-items: center; /* alinha verticalmente */
+  padding: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid grey;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(161, 177, 190);
+}
+
+footer img {
+  width: 35px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 10px;
+}
+
+.container {
+  padding: 0px 50px;
+}
+
+nav {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: beige;
+}
+
+div small {
+  font-style: italic;
+  color: red;
+  text-align: right;
+}
+
+.project {
+  margin: 10px;
+}
+
+
+.section-projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column; /* Alinhe os elementos verticalmente um abaixo do outro */
+  align-items: center; /* Centralize horizontalmente */
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+
+.project-img {
+  min-height: 150px;
+  max-height: 150px;
+  border-style: dotted 20px #fff;
+  border-radius: 5px;
+  
+}
+
+.click-here {
+  font-weight: 600;
+}
+
+.click-here:hover {
+  color: gray;
+}
+
+span {
+  font-style: bold;
+}
+
+ section a:hover {
+  color: gray;
+ }
