@@ -58,6 +58,8 @@ nav a:hover {
   color: beige;
 }
 
+
+
 div small {
   font-style: italic;
   color: red;
@@ -108,3 +110,54 @@ span {
  section a:hover {
   color: gray;
  }
+
+
+
+/* Responsividade 
+
+ /* CSS para dispositivos maiores (exemplo: desktop) */
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+/* CSS para dispositivos menores (exemplo: dispositivos móveis) */
+@media screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column; /* Itens empilhados verticalmente */
+    align-items: center; /* Alinhamento central dos itens */
+  }
+
+  .nav-list li {
+    margin-right: 0; /* Remover a margem direita */
+    margin-bottom: 10px; /* Espaçamento entre os itens empilhados */
+    text-align: center; /* Alinhar texto ao centro */
+  }
+}
+
+
+.section-projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  flex-basis: 30%; /* Ajuste o tamanho dos projetos de acordo com o seu layout */
+}
+
+/* CSS para dispositivos menores (exemplo: dispositivos móveis) */
+@media screen and (max-width: 768px) {
+  .section-projects {
+    flex-direction: column; /* Itens empilhados verticalmente */
+    align-items: center; /* Alinhamento central dos itens */
+  }
+
+  .project {
+    flex-basis: 100%; /* Projetos ocupam 100% da largura em dispositivos móveis */
+    margin-bottom: 20px; /* Espaçamento entre os projetos empilhados */
+  }
+}
