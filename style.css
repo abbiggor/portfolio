@@ -117,7 +117,7 @@ span {
 
  /* CSS para dispositivos maiores (exemplo: desktop) */
 .nav-list {
-  display:flex;
+  display: flex;
   list-style: none;
   justify-content: flex-end;
 }
