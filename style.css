@@ -5,9 +5,7 @@ body {
 }
 
 ul {
-  display: flex; /* coloca os elementos na mesma linha */
   justify-content: space-between; /* cria espaço entre os itens */
-  list-style-type: none; /* remove a bolinha */
   align-items: center; /* alinha verticalmente */
   padding: 16px;
 }
